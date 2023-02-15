@@ -18,5 +18,6 @@ const userSchema =mongoose.Schema({
   },
   
 });
+// create the collection
 const User = mongoose.model("user_info", userSchema);
 module.exports = User;
