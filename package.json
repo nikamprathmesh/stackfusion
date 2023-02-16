@@ -5,9 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js",
-    "Client" : "npm start --prefix client build",
-    "dev": "concurrently \"npm start\" \"npm run client"
+    "start" : "node app.js"
   },
   "author": "Prathmesh",
   "license": "ISC",

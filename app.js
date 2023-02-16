@@ -10,11 +10,11 @@ const User = require("./models/schema_file");
 require("./db/conn");
 // require("../client/public/index.html")
 // require("./client/build")
-app.use(express.static(path.join(__dirname,"./client/build")));
+// app.use(express.static(path.join(__dirname,"./client/build")));
 
-app.get('*',function(req,res){
-  res.sendFile(path.join(__dirname,"./client/build/index.html"));
-})
+// app.get('*',function(req,res){
+//   res.sendFile(path.join(__dirname,"./client/build/index.html"));
+// })
 app.listen(PORT, () => {
     console.log(`Listening to the port ${PORT}`);
   });
